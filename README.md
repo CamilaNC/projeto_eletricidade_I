@@ -3,22 +3,35 @@ Este projeto é um programa em linguagem C que realiza a simulação de um circu
 Funcionalidades principais:
 
 Solicita ao usuário:
+
 Nome
+
 Valores e unidades de resistência (R), indutância (L), capacitância (C)
+
 Tensão inicial no capacitor (V₀)
+
 Corrente inicial no indutor (I₀)
+
 Converte unidades de entrada para o Sistema Internacional.
 
 Calcula:
+
 Frequência natural não amortecida (ω₀)
+
 Constante de amortecimento (σ)
+
 Frequência amortecida (ω_d), quando aplicável
+
 Corrente inicial no capacitor (I_C₀)
 
 Determina o tipo de amortecimento do circuito:
+
 Subamortecido (oscilações decaem)
+
 Criticamente amortecido (retorna ao equilíbrio rapidamente, sem oscilações)
+
 Superamortecido (retorno lento, sem oscilações)
+
 Para cada tipo, calcula os coeficientes da solução da equação diferencial e o tempo/tensão do pico máximo (quando aplicável).
 
 Autores:
