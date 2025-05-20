@@ -2,7 +2,7 @@
 Este projeto é um programa em linguagem C que realiza a simulação de um circuito RLC série (resistor, indutor e capacitor) com base nos parâmetros fornecidos pelo usuário. O foco está em determinar o tipo de amortecimento do circuito e calcular grandezas características do sistema dinâmico.
 Funcionalidades principais:
 
-Solicita ao usuário:
+Solicita ao usuário :
 
 Nome
 
@@ -14,7 +14,7 @@ Corrente inicial no indutor (I₀)
 
 Converte unidades de entrada para o Sistema Internacional.
 
-Calcula:
+Calcula :
 
 Frequência natural não amortecida (ω₀)
 
